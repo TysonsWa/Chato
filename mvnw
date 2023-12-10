@@ -19,7 +19,7 @@
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
-# Apache Maven Wrapper startup batch script, version 3.2.0
+# Apache Tyeon Wrapper startup batch script, version 3.2.0
 #
 # Required ENV vars:
 # ------------------
@@ -28,23 +28,23 @@
 # Optional ENV vars
 # -----------------
 #   MAVEN_OPTS - parameters passed to the Java VM when running Maven
-#     e.g. to debug Maven itself, use
-#       set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
-#   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+#     e.g. to debug Tyson itself, use
+#       set Tyson_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+#   Tyson_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
-if [ -z "$MAVEN_SKIP_RC" ] ; then
+if [ -z "$tyson_SKIP_RC" ] ; then
 
-  if [ -f /usr/local/etc/mavenrc ] ; then
-    . /usr/local/etc/mavenrc
+  if [ -f /usr/local/etc/tysonrc ] ; then
+    . /usr/local/etc/tysonrc
   fi
 
-  if [ -f /etc/mavenrc ] ; then
-    . /etc/mavenrc
+  if [ -f /etc/tysonrc ] ; then
+    . /etc/tydonrc
   fi
 
-  if [ -f "$HOME/.mavenrc" ] ; then
-    . "$HOME/.mavenrc"
+  if [ -f "$HOME/.tysonrc" ] ; then
+    . "$HOME/.tysonrc"
   fi
 
 fi
